@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Roboto+Mono:700";
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
 body {
   min-height: 100vh;
   padding: 1px;
@@ -34,7 +35,7 @@ input[id^="f"]:checked {
 }
 
 .timer {
-  font-family: "Roboto Sans", monospace;
+  font-family: 'Hanna', fantasy;
   font-size: 0;
   background: #ccc;
   border: 1px solid #808080;
@@ -210,7 +211,7 @@ input[id^="c"]:checked ~ .infos .timer .digit, input[id^="c"]:checked ~ .infos .
 .grid label:before {
   content: '';
   font-size: .9rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Hanna', fantasy;
   font-weight: bold;
   position: absolute;
   left: 50%;
