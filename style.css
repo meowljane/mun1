@@ -537,8 +537,8 @@ content: "2";
 }
 
 .grid label:nth-child(35):before {
-  content: "5";
-  color: #ffffff;
+   content: "3";
+  color: #ff1300;
 }
 
 .grid label:nth-child(38):before {
